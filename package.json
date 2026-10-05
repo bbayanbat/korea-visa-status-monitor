@@ -1,0 +1,14 @@
+{
+  "name": "korea-visa-status-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Daily Korea visa status checker with Telegram notifications",
+  "scripts": {
+    "check": "node --check scripts/check-visa.mjs",
+    "start": "node scripts/check-visa.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.55.1"
+  }
+}
